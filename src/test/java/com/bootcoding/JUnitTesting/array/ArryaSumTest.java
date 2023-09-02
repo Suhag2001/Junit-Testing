@@ -15,6 +15,7 @@ public class ArryaSumTest {
         assertEquals(actulValue,expectedValue);
     }
 
+
     @Test
     public void addTest2(){
         ArryaSum arryaSum = new ArryaSum();
