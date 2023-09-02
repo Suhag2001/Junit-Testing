@@ -20,6 +20,7 @@ class JUnitTestingApplicationTests {
 		int expectedResult = 15;
 		int actualResult = c.addTo(5,5,5);
 		Assertions.assertThat(actualResult).isEqualTo(expectedResult);
+
 	}
 
 	@Test
